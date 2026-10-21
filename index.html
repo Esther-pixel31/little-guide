@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#572D3A" />
+  <meta
+    name="description"
+    content="A little guide to understanding me, made with thought, honesty, and affection."
+  />
+  <title>A Little Guide to Understanding Me ♡</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="reading-progress" aria-hidden="true">
+    <div id="reading-progress-fill"></div>
+  </div>
+
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div id="floating-hearts" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Back to the beginning">
+      <span class="brand-heart">♡</span>
+      <span>A little guide</span>
+    </a>
+
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="#intro">The beginning</a>
+      <a href="#chapters">Get to know me</a>
+      
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-decoration hero-decoration-one" aria-hidden="true">✦</div>
+      <div class="hero-decoration hero-decoration-two" aria-hidden="true">♡</div>
+
+      <p class="eyebrow">A little introduction, just for you ♡</p>
+
+      <div class="hero-heart" aria-hidden="true">♡</div>
+
+      <h1>
+        Getting to know me,
+        <br />
+        <span>one little thing at a time.</span>
+      </h1>
+
+      <p class="hero-copy">
+        I'm a little shy, a little in my head, sometimes terrible
+        at finding the right words, and full of little things I
+        hope you'll get to know about me.
+        <br /><br />
+        So here's a little guide to the person behind the texts,
+        the quiet moments, the feelings, and the chaos. 😂❤️
+      </p>
+
+      <button class="primary-button" id="start-button" type="button">
+        Come get to know me <span>♡</span>
+      </button>
+
+      <p class="tiny-note">
+        Made with a little courage, a lot of thought, and a little shyness.
+      </p>
+
+      <a class="scroll-cue" href="#intro" aria-label="Scroll to the introduction">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="intro section reveal" id="intro">
+      <p class="eyebrow">Before you begin</p>
+
+      <h2>A little about me, <span>before us.</span></h2>
+
+      <p>
+        I'm an introvert, and sometimes I have a whole conversation
+        planned in my head, only for the words to disappear when
+        I actually need them. 😂 That's one reason I love texting:
+        it gives me time to gather my thoughts.
+      </p>
+
+      <p>
+        After several situationships, this is my first actual
+        relationship experience. I'm learning what it means to
+        build something deeper with someone, and I want us to
+        learn each other instead of expecting either of us to
+        magically know everything.
+      </p>
+
+      <p>
+        This isn't a rulebook or a list of demands. It's a little
+        window into who I am, what makes me feel loved, what I'm
+        still learning, and the kind of connection I hope we can
+        build together.
+      </p>
+
+      <div class="intro-signature">With love and a little nervousness, ♡</div>
+    </section>
+
+    <section class="chapters section" id="chapters">
+      <div class="section-heading reveal">
+        <p class="eyebrow">The little things that make me, me</p>
+        <h2>Let's get into <span>the details.</span></h2>
+        <p>
+          Every card holds a little piece of me. Open whichever one
+          catches your attention, and take your time.
+        </p>
+      </div>
+
+      <div class="chapter-grid" id="chapter-grid">
+        <p class="loading-message">Preparing your little guide… ♡</p>
+      </div>
+
+      <div class="surprise-area reveal">
+        <div class="surprise-sparkle" aria-hidden="true">✧</div>
+        <h3>A tiny surprise for you</h3>
+        <p>Because getting to know me should have a little fun in it, too.</p>
+
+        <button class="secondary-button" id="surprise-button" type="button">
+          Give me a little something ♡
+        </button>
+
+        <p
+          class="surprise-result"
+          id="surprise-result"
+          aria-live="polite"
+        ></p>
+      </div>
+    </section>
+
+    
+
+    <section class="final-note section" id="final-note">
+      <div class="final-card reveal">
+        <div class="final-ornament" aria-hidden="true">♡</div>
+
+        <p class="eyebrow">One last little thing</p>
+
+        <h2>This is me, <span>in my own words.</span></h2>
+
+        <p>
+          I don't expect us to get everything right immediately.
+          I just hope we can be honest, curious about each other,
+          patient when things feel unfamiliar, and willing to talk
+          rather than make assumptions.
+        </p>
+
+        <p>
+          I want us both to feel like we can show up as ourselves,
+          share the difficult things as well as the happy ones,
+          and learn what caring for each other looks like in practice.
+        </p>
+
+        <p class="final-emphasis">
+          You don't have to understand every little thing about me today.
+          Just keep being willing to learn. ♡
+        </p>
+
+        <div class="final-signature">Made with care, just for you. ❤️</div>
+
+        <button class="text-button" id="back-to-top" type="button">
+          Back to the beginning ↑
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Made with a little courage and a lot of thought.</span>
+    <span class="footer-heart">♡</span>
+  </footer>
+
+  <dialog class="chapter-dialog" id="chapter-dialog" aria-labelledby="dialog-title">
+    <button
+      class="dialog-close"
+      id="close-dialog"
+      type="button"
+      aria-label="Close chapter"
+    >
+      ×
+    </button>
+
+    <div class="dialog-inner" id="dialog-content"></div>
+
+    <div class="dialog-actions">
+      <button class="secondary-button" id="next-chapter" type="button">
+        Read another chapter →
+      </button>
+    </div>
+  </dialog>
+</body>
+</html>
